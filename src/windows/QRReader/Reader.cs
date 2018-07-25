@@ -35,7 +35,7 @@ namespace QRReader
             barcodeReader = new BarcodeReader
             {
                 Options = {
-                    PossibleFormats = new BarcodeFormat[] { BarcodeFormat.QR_CODE },
+                    PossibleFormats = new BarcodeFormat[] { BarcodeFormat.PDF_417 },
                     TryHarder = true
                 }
             };
